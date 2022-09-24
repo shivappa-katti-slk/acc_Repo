@@ -1,0 +1,15 @@
+﻿{
+  "Id": "PPT8BI61dUWZm8uZJyPaPw",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/PPT8BI61dUWZm8uZJyPaPw",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/3FTYkshh_UKfyf-Y6Cl99w",
+  "Name": "Country Flag",
+  "Description": "This element is the country flag ",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2022-09-23T05:39:00.60199Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-23T05:39:00.60199Z"
+}

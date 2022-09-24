@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2QpiYPW7vEmmEbuEfIkGLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://randomcity.net/?" DesignTimeRectangle="460, 235, 444, 342" FriendlyName="'Oklahoma City,'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;                                                                                          ' /&gt;" Guid="0e4149fe-fb98-4d71-a6c4-321574fa92c4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Random City Generator - Explore the world!' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e21d6848b60d78ecab139126479001ad.png" xmlns="">0qBVXIO9JUE6m3_DsVO97rQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

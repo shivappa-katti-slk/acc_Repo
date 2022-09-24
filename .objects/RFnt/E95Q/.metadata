@@ -1,0 +1,12 @@
+﻿{
+  "Id": "E95QkejkykG40R87BsqJpA",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/E95QkejkykG40R87BsqJpA",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/RFntNTBxakG5gZg_RBzXaw",
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Created": "2022-09-22T11:27:47.8364333Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-22T11:27:47.8364333Z"
+}

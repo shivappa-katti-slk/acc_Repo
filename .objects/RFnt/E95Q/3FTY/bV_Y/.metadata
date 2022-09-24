@@ -1,0 +1,15 @@
+﻿{
+  "Id": "bV_Yo9ovEUuqZiWFROaLPQ",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/bV_Yo9ovEUuqZiWFROaLPQ",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/3FTYkshh_UKfyf-Y6Cl99w",
+  "Name": "Next Button",
+  "Description": "Button Next which shows the details of next country",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-09-22T11:30:56.5608765Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-22T11:30:56.5608765Z"
+}

@@ -1,0 +1,18 @@
+﻿{
+  "Id": "cJVutCOqtkeB5waKtnKEVQ",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/cJVutCOqtkeB5waKtnKEVQ",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/3FTYkshh_UKfyf-Y6Cl99w",
+  "Name": "Country Details",
+  "Description": "This element gives the infomation of the country which includes Currency, Timezone etc.",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-09-23T11:53:58.8371724Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-23T14:05:36.3082357Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

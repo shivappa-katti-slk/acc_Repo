@@ -1,0 +1,11 @@
+﻿{
+  "Id": "RFntNTBxakG5gZg_RBzXaw",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/RFntNTBxakG5gZg_RBzXaw",
+  "Name": "randomCityGenerator",
+  "Type": "App",
+  "Created": "2022-09-22T11:27:46.5365717Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-22T11:27:46.5365717Z"
+}

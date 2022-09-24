@@ -1,0 +1,15 @@
+﻿{
+  "Id": "sLYBlNu1oEGv7cU39twl-A",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/sLYBlNu1oEGv7cU39twl-A",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/3FTYkshh_UKfyf-Y6Cl99w",
+  "Name": "Check Random City Text exist in Home page",
+  "Description": "random city text in the homepage",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2022-09-22T11:29:19.449201Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-22T11:29:19.449201Z"
+}

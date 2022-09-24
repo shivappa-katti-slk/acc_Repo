@@ -1,0 +1,14 @@
+﻿{
+  "Id": "lvpcZzHU1US8AnK81quVuw",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/lvpcZzHU1US8AnK81quVuw",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/cJVutCOqtkeB5waKtnKEVQ",
+  "Name": "New Country Details",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-09-23T14:09:45.8202409Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-23T14:09:45.8202409Z"
+}

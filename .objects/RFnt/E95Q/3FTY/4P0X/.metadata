@@ -1,0 +1,18 @@
+﻿{
+  "Id": "4P0Xwpzff0imeuuEPpsXQw",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/4P0Xwpzff0imeuuEPpsXQw",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/3FTYkshh_UKfyf-Y6Cl99w",
+  "Name": "Country Name",
+  "Description": "Elemnent gives the Country name from the Home Page\r\n",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-09-22T11:30:09.6300746Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-24T08:56:18.3001089Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

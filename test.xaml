@@ -1,0 +1,193 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="709,515" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="35">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="34">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="304,243" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="counter" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[counter]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">1</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="262,51" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,143" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: 7849_Web_AccenturePortal_Production" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="50e61218-bde8-4c57-8fa4-a5730b02c2cf" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence sap:VirtualizedContainerService.HintSize="382,516" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="340,423" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                    <ui:InterruptibleWhile.Body>
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,258" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="262,66" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Name="str_RandomCityDetails" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NGetText DisplayName="Get Text 'Oklahoma City,'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="50e61218-bde8-4c57-8fa4-a5730b02c2cf" Version="V1">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="https://randomcity.net/?" DesignTimeRectangle="460, 235, 444, 342" FriendlyName="'Oklahoma City,'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;                                                                                          ' /&gt;" Guid="0e4149fe-fb98-4d71-a6c4-321574fa92c4" InformativeScreenshot="e21d6848b60d78ecab139126479001ad.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Random City Generator - Explore the world!' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive" />
+                            </uix:NGetText.Target>
+                            <uix:NGetText.Text>
+                              <OutArgument x:TypeArguments="x:String">[str_RandomCityDetails]</OutArgument>
+                            </uix:NGetText.Text>
+                          </uix:NGetText>
+                          <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="filename.txt" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[str_RandomCityDetails]" />
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[str_RandomCityDetails.Split(New String(){&quot;Currency&quot;,&quot;Timezone&quot;},StringSplitOptions.None)(1)]" />
+                          <uix:NClick ClickType="Single" DisplayName="Click 'Next random city'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="50e61218-bde8-4c57-8fa4-a5730b02c2cf" Version="V1">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="https://randomcity.net/?" DesignTimeRectangle="588, 596, 190, 44" ElementType="Button" FriendlyName="'Next random city'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='capitalize bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center' aaname='                               Next random city  ' check:innerText='Next Random City' /&gt;" Guid="6ed2c968-8c8b-4d69-9672-b448e9b8b66b" ImageBase64="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" InformativeScreenshot="99b944fe1a8cd13d6a6c1baeac6f6b38.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Random City Generator - Explore the world!' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target DesignTimeRectangle="624, 604, 138, 24" ElementType="Text" FriendlyName="'Next random city'" FullSelectorArgument="&lt;webctrl aaname=' Next random city ' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Next random city ' tag='SPAN' type='' class='' check:innerText='Next Random City' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAI4AAAAcCAYAAAC3U4dAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM0SURBVGhD7ZbRbeswDEW719uuK3SUfnWHAhnBA+TTQAMEjfUoy5KuSEqWhbjIBwlcIJZlmbw8kvP27/3HmUxHZeCYhmTgmIZk4JiGZOCYhmTgmIZk4JiGZOCYhmTgjOjr4WYXYroo919Kd/d9C7nO0125PyYAJ7/AhzDkFcyCHHg805RdvRo4FV/W3PDe9Vd/fkBVcJxb3CdMPNWstDZ7J1fFoBh/Bs+ZXhzU53VLRImQm37ifExLGByEqQEOBS56olmpiAPgpBwQptvDffBnztCLgJN9o+C1X5ZGbtDrp4JzWzZjFvf9td2vmYWNWyM3H3eD2ujrQ8LqowaAmgPmnZ/TdqK649Z8f920XfkQhlMTcpAnl4oXxbwQNa/8OOYYcis3b/sEhZybGybPW9cT/QoxT4+8XgFTfh5r0cGhB5OxMSmtaYpRISI8sqnJrPW6NCpFzYidHLLRlXUp4hwEZxZz4eSr1hgi5tH6ZKS8IP+ZNmcZeh5p43JBXthQqV5w7lCDVj+Mkarg4DV/YUiUzy/HUjH4HFEdfpeGjHyqRDR3HQe2POYlTEqNkJuYh0BESEiiEZh/9AzBjDV0QCFzrYmBs45pvSOJHkMNOI/UAIfGgDZ5PMNRqQQaiEX6wHvl/UFwFGj4O1MIcOCdwjjNdGUe+oQnBB9XGtM9xtUBV9ABcMR4fFaefG1wSNoRvCYKxakBa5wBTjAL4EV4wNSYR/3EaYAD1y1wcK0/AwfmlM3nOgIOKebsfcLfOIe0C07RnC1CMTDeShxNuOoGj4NDAkiiMWm9lBfUNnjioHm4mdZ58BwC1vpUpfx7x4SgJh+sB74+XkMXOGl+/s9VbJpNHeCQcAdTxGKy+SySyXxN2UBtfY3wVRVDsUEeyGpePg6Bs7MWRZynncwxkvFPBcdLbmqM8KwGjsy3fk9+prz6wCHhYkUxvOk+1ubAevhynA/vKZI9CE5pYAAB1/OmpOuD4HiV8ND8rnk+mOm9kFTr1KXDHevSweHQFffg/RoLXgCOybSpA1wDxySUT2s4jZkMHNMm/GsRovWZNHBMm0pw9v5bGTimIRk4piEZOKYhGTimAf24//i+oVwQtBUJAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                        <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Int32">[counter]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Int32">[counter+1]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </ui:InterruptibleWhile.Body>
+                    <ui:InterruptibleWhile.Condition>
+                      <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="counter &lt; =30" />
+                    </ui:InterruptibleWhile.Condition>
+                  </ui:InterruptibleWhile>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="58133b067c506efcee1da4e39b0e7831.png" Selector="&lt;html app='chrome.exe' url='https://randomcity.net/?' /&gt;" Url="https://randomcity.net/?" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

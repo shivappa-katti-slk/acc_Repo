@@ -1,0 +1,15 @@
+﻿{
+  "Id": "3FTYkshh_UKfyf-Y6Cl99w",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/3FTYkshh_UKfyf-Y6Cl99w",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/E95QkejkykG40R87BsqJpA",
+  "Name": "Homepage",
+  "Description": "Home page  Consist of Country name, Currency Timezone and all other detiails",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2022-09-22T11:28:43.1313458Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-22T11:28:43.1313458Z"
+}

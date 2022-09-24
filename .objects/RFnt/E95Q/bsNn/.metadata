@@ -1,0 +1,14 @@
+﻿{
+  "Id": "bsNnLyWpq0uELRJqrkbcKg",
+  "Reference": "heTE_04120a7bXB6Lg8n2A/bsNnLyWpq0uELRJqrkbcKg",
+  "ParentRef": "heTE_04120a7bXB6Lg8n2A/E95QkejkykG40R87BsqJpA",
+  "Name": "Chrome Random City Generator - Explore the world!",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2022-09-24T08:59:49.6509874Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-24T08:59:49.6509874Z"
+}
